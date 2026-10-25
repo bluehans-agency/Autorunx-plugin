@@ -10,11 +10,11 @@
     "url": "https://autorunx.com"
   },
   "homepage": "https://autorunx.com",
-  "repository": "https://github.com/autorunx/autorunx-plugin",
+  "repository": "https://github.com/bluehans-agency/Autorunx-plugin",
   "license": "MIT",
   "keywords": ["video", "ai-video", "image", "music", "film", "storyboard", "mcp"],
   "icon": "./assets/logo.png",
-  "documentationUrl": "https://github.com/autorunx/autorunx-plugin#readme",
+  "documentationUrl": "https://github.com/bluehans-agency/Autorunx-plugin#readme",
   "supportUrl": "mailto:support@autorunx.com",
   "privacyPolicyUrl": "https://autorunx.com/privacy",
   "termsOfServiceUrl": "https://autorunx.com/terms",

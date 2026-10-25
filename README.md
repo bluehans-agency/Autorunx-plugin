@@ -20,7 +20,7 @@ It starts with `axk_` and is shown once.
 ### Claude Code (plugin)
 
 ```bash
-/plugin marketplace add autorunx/autorunx-plugin
+/plugin marketplace add bluehans-agency/Autorunx-plugin
 /plugin install autorunx@autorunx
 ```
 
@@ -36,7 +36,7 @@ claude mcp add --transport http autorunx https://autorunx.com/api/mcp \
 ### Codex
 
 ```bash
-codex plugin marketplace add autorunx/autorunx-plugin
+codex plugin marketplace add bluehans-agency/Autorunx-plugin
 ```
 
 Or add only the MCP server to `~/.codex/config.toml`:
