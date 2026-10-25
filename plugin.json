@@ -1,0 +1,6 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "autorunx",
+  "version": "1.0.0",
+  "description": "Make AI films, pictures and music on AutorunX from your coding agent: plan, storyboard, generate and edit the timeline of a Studio Mix project."
+}

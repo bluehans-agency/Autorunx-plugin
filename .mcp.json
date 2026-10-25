@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "autorunx": {
+      "type": "http",
+      "url": "https://autorunx.com/api/mcp",
+      "headers": {
+        "Authorization": "Bearer ${user_config.api_key}"
+      }
+    }
+  }
+}

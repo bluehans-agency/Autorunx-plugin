@@ -1,0 +1,18 @@
+{
+  "name": "autorunx",
+  "owner": {
+    "name": "AutorunX",
+    "email": "support@autorunx.com"
+  },
+  "metadata": {
+    "description": "The AutorunX plugin for Claude Code."
+  },
+  "plugins": [
+    {
+      "name": "autorunx",
+      "source": "./",
+      "description": "Make AI films, pictures and music on AutorunX from your coding agent.",
+      "category": "productivity"
+    }
+  ]
+}

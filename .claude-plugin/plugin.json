@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "autorunx",
+  "displayName": "AutorunX",
+  "version": "1.0.0",
+  "description": "Make AI films, pictures and music on AutorunX from your coding agent: plan, storyboard, generate and edit the timeline of a Studio Mix project.",
+  "author": {
+    "name": "AutorunX",
+    "email": "support@autorunx.com",
+    "url": "https://autorunx.com"
+  },
+  "homepage": "https://autorunx.com",
+  "repository": "https://github.com/autorunx/autorunx-plugin",
+  "license": "MIT",
+  "keywords": ["video", "ai-video", "image", "music", "film", "storyboard", "mcp"],
+  "icon": "./assets/logo.png",
+  "documentationUrl": "https://github.com/autorunx/autorunx-plugin#readme",
+  "supportUrl": "mailto:support@autorunx.com",
+  "privacyPolicyUrl": "https://autorunx.com/privacy",
+  "termsOfServiceUrl": "https://autorunx.com/terms",
+  "userConfig": {
+    "api_key": {
+      "type": "string",
+      "title": "AutorunX API key",
+      "description": "Starts with axk_. Make one on autorunx.com: profile picture → API keys.",
+      "required": true,
+      "sensitive": true
+    }
+  }
+}

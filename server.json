@@ -1,0 +1,26 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.autorunx/autorunx",
+  "title": "AutorunX",
+  "description": "Make AI films, pictures and music on AutorunX: plan, storyboard, generate, edit timeline.",
+  "version": "1.0.0",
+  "websiteUrl": "https://autorunx.com",
+  "repository": {
+    "url": "https://github.com/autorunx/autorunx-plugin",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://autorunx.com/api/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Bearer axk_… — make a key on autorunx.com (profile picture → API keys).",
+          "isRequired": true,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}
